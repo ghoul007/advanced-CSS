@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns:  repeat(5, 1fr);
+    background: pink;
+}
+
+.test{
+    grid-column: span 5;
+    grid-row: span 1;
+    background: gray;
+}
