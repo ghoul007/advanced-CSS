@@ -1,0 +1,13 @@
+
+  :root{
+  --yellow: #ffc600;
+  --black: black;
+  }
+
+  p {
+    font-size: 50px;
+    border-bottom: 10px solid var(--yellow);
+    color: var(--black);
+  }
+
+
