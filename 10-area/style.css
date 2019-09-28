@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+    grid-gap:20px;
+    grid-template-areas:
+    "sidbar1 body sidbar2"
+    "sidbar1 bosy sidbar2"
+    "footer footer footer"
+    }
+
+
+.footer{
+    grid-area: footer
+}
+
+.item1{
+    grid-area: sidbar1
+}
+
+.item2{
+    grid-area: body
+}
+
+item3{
+    grid-area: sidbar2;
+}
+
+
+@media(max-width: 700px){
+    .container{
+        display: grid;
+        grid-gap:20px;
+        grid-template-areas:
+        "body body body"
+        "sidbar1 sidbar1 sidbar2"
+        "footer footer footer"
+    }
+}
